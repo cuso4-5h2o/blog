@@ -1,0 +1,74 @@
+baseURL = "https://blog.cuso4.me/"
+title = "cuso4-5h2o"
+
+theme = "coder"
+
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+disqusShortname = "cuso4-5h2o"
+
+[params]
+    author = "cuso4-5h2o"
+    description = "cuso4-5h2o's Blog"
+    keywords = "blog,developer,personal,cuso4-5h2o,cuso4,cus,5h2o"
+    info = ""
+    avatarURL = "https://www.cuso4.me/images/avators/cuso4-5h2o.png"
+    footerContent = ""
+
+    favicon_32 = "https://www.cuso4.me/favicon-32x32.png"
+    favicon_16 = "https://www.cuso4.me/favicon-16x16.png"
+    touchicon = "https://www.cuso4.me/apple-touch-icon.png"
+    
+    dateFormat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2021
+
+    rtl = false
+
+    colorScheme = "auto"
+    hideColorSchemeToggle = true
+
+    maxSeeAlsoItems = 5
+
+    enableTwemoji = true
+
+    customCSS = []
+    customSCSS = []
+    customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+            name = "Home"
+            weight = 1
+            url = "https://www.cuso4.me"
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+            [[languages.en.menu.main]]
+            name = "RSS"
+            weight = 3
+            url = "index.xml"
+            [[languages.en.menu.main]]
+            name = "Friends"
+            weight = 4
+            url = "https://www.cuso4.me/friends"
