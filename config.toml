@@ -12,8 +12,6 @@ pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
-disqusShortname = "cuso4-5h2o"
-
 [params]
     author = "cuso4-5h2o"
     description = "cuso4-5h2o's Blog"
